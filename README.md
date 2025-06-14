@@ -1,36 +1,44 @@
-# 📊 Big O Notation – Quick Reference
+# 📘 Data Structures – Complete Overview
 
-Big O Notation is used to describe **how efficient an algorithm is** in terms of:
-
-- **Time Complexity** – How fast it runs.
-- **Space Complexity** – How much memory it uses.
-
-It gives us an **upper bound** on performance as input size **n** grows.
+Welcome to the Data Structures repository! This project is a beginner-friendly guide and implementation collection of fundamental data structures in computer science.
 
 ---
 
-## 🚀 Why It Matters
+## 📚 What are Data Structures?
 
-Big O helps you compare algorithms and understand how they scale.
-
-For example:
-
-- Sorting 10 numbers? Any algorithm works.
-- Sorting 10 million? You need something efficient!
+**Data Structures** are ways of organizing and storing data so that they can be accessed and modified efficiently. They form the backbone of efficient programming and algorithm design.
 
 ---
 
-## 🧠 Common Time Complexities
+## 🧠 Why Learn Data Structures?
 
-| Big O     | Name           | Example                        | Notes                         |
-|-----------|----------------|--------------------------------|-------------------------------|
-| O(1)      | Constant        | Accessing an array index       | Fastest – doesn't grow        |
-| O(log n)  | Logarithmic     | Binary search                  | Great for large data          |
-| O(n)      | Linear          | Looping through an array       | Grows proportionally          |
-| O(n log n)| Log-linear      | Merge sort, Quick sort         | Optimal for many algorithms   |
-| O(n²)     | Quadratic       | Nested loops (e.g. bubble sort)| Gets slow quickly             |
-| O(2ⁿ)     | Exponential     | Recursive Fibonacci            | Very inefficient              |
-| O(n!)     | Factorial       | Traveling Salesman (brute)     | Impractical for large `n`     |
+- Improve problem-solving and coding skills
+- Build efficient and optimized applications
+- Crack coding interviews and competitive programming
+- Understand how memory and data organization works under the hood
 
 ---
 
+## 📦 Types of Data Structures
+
+### 1. Linear Data Structures
+| Structure   | Description                                    | Example Languages       |
+|-------------|------------------------------------------------|-------------------------|
+| Array       | Fixed size, same type elements, index-based    | C, C++, Java, Python    |
+| Linked List | Dynamic size, each node points to next         | C, C++, Java            |
+| Stack       | LIFO - Last In First Out                       | All major languages     |
+| Queue       | FIFO - First In First Out                      | All major languages     |
+
+### 2. Non-Linear Data Structures
+| Structure   | Description                                    | Use Cases               |
+|-------------|------------------------------------------------|-------------------------|
+| Tree        | Hierarchical data structure (e.g., binary tree)| File systems, databases |
+| Graph       | Nodes connected by edges                       | Networks, social graphs |
+| Heap        | Special tree for priority operations           | Priority queues         |
+| Hash Table  | Key-value pairs with fast lookup               | Caching, dictionaries   |
+
+---
+
+## 🧪 Sample Implementations
+
+### 📁 Folder Structure
